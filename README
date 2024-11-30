@@ -1,0 +1,14 @@
+使用文件“Wifi_mode_Gerber.zip”可以在嘉立创可免费下单，文件已指明层压顺序，嘉立创客户编号已定位
+“BOM_Wifi_Mode.xlsx”是器件BOM表
+“Driver”文件夹有对应的驱动文件
+需要GPIO等长可查看文件“GPIO_Lenth.txt”
+
+”Wifi_Mode.zip“是模块固件，焊接完成需要下载固件，按以下步骤操作：
+1.使用USB转串口模块连接wifi模块
+2.打开“Wifi_Mode”文件夹中的”flash_download_tool_3.9.4.exe”
+3.选择芯片ESP32C3点击OK
+4.长按wifi模块的flash按键,轻触reset键后放开flash键
+5.选择文件".\Wifi_Mode\Wifi_Mode\bin\target.bin"下载地址@ 0x0
+6.点击start等待下载完成
+
+ESP32C3模组需要购买2.4GHZ的FPC天线，接口为IPEX4

@@ -1,0 +1,6 @@
+SPI_CS                  1104.2mil
+SPI_MISO             1553mil
+SPI_MOSI             300.5mil
+SPI_SCLK              343.2mil
+UART_TX              1160.4mil
+UART_RX              1147.4mil
